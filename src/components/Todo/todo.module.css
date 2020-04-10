@@ -1,0 +1,35 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 16px;
+  width: 320px;
+  box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.36);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.todo:hover {
+  box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.36);
+}
+
+.idContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 32px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+.done {
+  background-color: rgba(0, 255, 0, .2);
+}
+
+.notDone {
+  background-color: rgba(255, 0, 0, .2);
+}
